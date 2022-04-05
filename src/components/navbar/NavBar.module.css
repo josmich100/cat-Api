@@ -1,0 +1,33 @@
+.nav {
+  background-color: rgba(59, 56, 53, 0.8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  padding-right: 16px;
+}
+.links > a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+.links > a:hover {
+  color: rgb(218, 132, 3);
+  text-decoration: none;
+}
+.nav > h1 {
+  color: #fff;
+  font-size: 2em;
+}

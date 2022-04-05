@@ -1,0 +1,50 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.image {
+  height: 240px;
+  width: 240px;
+  border-radius: 15%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons :last-child {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(222, 13, 13);
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.buttons :nth-last-child(2) {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(3, 132, 218);
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.buttons :first-child {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(39, 218, 3);
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
